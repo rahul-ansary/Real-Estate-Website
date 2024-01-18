@@ -1,0 +1,406 @@
+/* css reset  */
+* {
+  margin: 0;
+  padding: 0;
+  /* outline: 0; */
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  /* overflow: hidden; */
+  padding: 0 50px;
+  background-color: #f6f8fa;
+}
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(./photos/mainBackground.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  height: 125vh;
+}
+/*  designing navigation bar*/
+nav {
+  padding: 25px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 50px;
+}
+nav ul li {
+  list-style: none;
+  cursor: pointer;
+}
+
+nav img {
+  width: 10%;
+}
+a {
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 500;
+  color: #ffffff;
+}
+a:hover {
+  font-weight: 700;
+}
+
+hr {
+  margin: 0 100px;
+}
+
+header div {
+  color: #ffffff;
+  margin-top: 125px;
+  margin-left: 135px;
+  width: 70%;
+}
+
+header div h1 {
+  font-size: 70px;
+  width: 90%;
+  margin-bottom: 30px;
+}
+header div p {
+  font-size: 18px;
+  margin-bottom: 40px;
+  width: 50%;
+}
+/* designing all button  */
+button {
+  color: #ffffff;
+  background-color: #6663e9;
+  padding: 10px 25px;
+  border: none;
+  font-size: 15px;
+  font-weight: 500;
+  border-radius: 20px;
+  cursor: pointer;
+}
+button:hover {
+  color: #6663e9;
+  border: 1px solid #6663e9;
+  background-color: #ffffff;
+}
+/* desinging logo section  */
+.logo-section {
+  margin: 0 35px;
+  border-radius: 30px;
+  height: 190px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  position: relative;
+  bottom: 100px;
+}
+.logo-section img {
+  width: 150px;
+}
+.cards-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin-top: 50px;
+
+}
+.card-wrapper-section h1 {
+  font-size: 80px;
+  font-weight: 800;
+  text-align: center;
+  letter-spacing: 0.01em;
+}
+
+/* giving different top values for cards  */
+.cards-wrapper div:nth-child(2){
+      margin-top: 100px;
+}.cards-wrapper div:nth-child(3){
+  margin-top: 160px;
+}
+.cards-wrapper div:nth-child(4){
+  margin-top: 160px;
+}
+.cards-wrapper div:nth-child(5){
+  margin-top: 100px;
+}
+.cards-wrapper div:nth-child(6){
+  margin-top: 40px;
+}
+.cards-wrapper div:nth-child(7){
+  margin-top: 40px;
+}
+.cards-wrapper div:nth-child(8){
+  margin-top: 100px;
+}
+.cards-wrapper div:nth-child(9){
+  margin-top: 160px;
+}
+/* designing card  */
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.card img {
+  height: 350px;
+  width: 400px;
+  border-radius: 20px;
+}
+/* designing card box  */
+.card-box {
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 20px;
+  height: 120px;
+  width: 325px;
+  box-shadow: 0px 4px 120px rgba(58, 86, 78, 0.2);
+  border-radius: 10px;
+  position: absolute;
+  bottom: -60px;
+}
+.card-box button {
+  padding: 5px 10px;
+  font-weight: 800;
+  font-weight: 15px;
+  width: 120px;
+  height: 50px;
+}
+.card-box div h3{
+  font-size: 25px;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+.card-box div p{
+  font-size: 20px;
+  font-weight: 700;
+  color: #6663e9;
+}
+
+/* designing the first feature section  */
+
+.feature-section{
+  margin-top: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  /* margin-right: 5%; */
+}
+.feature-section div{
+  width: 50%;
+}
+.feature-section-img1{
+  position: absolute;
+  z-index: -1;
+  left: -80px;
+  height: 450px;
+  width: 725px;
+}
+
+.feature-section-img2{
+  position: relative;
+  height: 400px;
+  width: 400px;
+  border-radius: 50px;
+  left: 62px;
+  bottom: 58px;
+}
+.feature-section div h1{
+  font-size: 70px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  
+}
+.feature-section div p{
+  font-size: 18px;
+  font-weight: 300;
+  margin-bottom: 20px;
+  max-width: 80%;
+}
+
+/* desinging the second feature section  */
+
+.Second-feature-section{
+  margin-top: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  /* margin-right: 5%; */
+}
+
+.Second-feature-section div h1{
+  font-size: 70px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  
+}
+.Second-feature-section div p{
+  font-size: 18px;
+  font-weight: 300;
+  margin-bottom: 20px;
+  max-width: 80%;
+}
+.Second-feature-section div{
+  width: 50%;
+}
+
+.Second-feature-section-img1{
+  position: absolute;
+  z-index: -1;
+  height: 450px;
+  width: 725px;
+}
+
+.Second-feature-section-img2{
+  position: relative;
+  height: 400px;
+  width: 400px;
+  border-radius: 50px;
+  left: 188px;
+  bottom: 68px;
+  /* top: 300px; */
+}
+/* designing news shelter  */
+.news-shelter{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  background-color: #6663e9;
+  width: 100%;
+  height: 500px;
+  margin-top: 100px;
+  text-align: center;
+  border-radius: 50px;
+}
+.news-shelter h1{
+  color: #ffffff;
+  font-size: 60px;
+  font-weight: 700;
+}
+.news-shelter p{
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 300;
+  width: 550px;
+}
+.news-shelter button{
+  background-color: #ffffff;
+  color: #6663e9;
+  border-radius: 40px;
+}
+.news-shelter button:hover{
+  background-color: #403e95;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+}
+.news-shelter form{
+  display: flex;
+  gap: 10px;
+
+}
+.news-shelter form div{
+  border-radius: 30px;
+  background-color: #403e95;
+  width: 450px;
+  height: 60px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+#Email{
+  /* width: 60%; */
+  border-radius: 10px;
+  border: transparent;
+  font-size: 20px;
+  font-weight: 300;
+  /* padding: 5px 10px; */
+  background-color: #403e95;
+}
+/* designing footer section  */
+
+.footer-section{
+  align-self: center;
+  width: 100%;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* designing footer left section   */
+.footer-left-section{
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  gap: 30px;
+}
+.footer-left-section h3{
+  font-size: 20px;
+  font-weight: 500;
+  /* width: 500px; */
+}
+
+.footer-left-section img{
+  width: 200px;
+}
+.logos img{
+  width: 60px;
+}
+
+.logos{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+/* designing footer right section  */
+.footer-right-section{
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  /* gap: 110px; */
+}
+.footer-links-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.footer-links-content ul li:first-child {
+  /* font-weight: 700; */
+  font-size: 40px;
+}
+.footer-links-content a{
+  color: black;
+}
+.footer-links-content ul li {
+  gap: 50px;
+  list-style: none;
+  text-decoration: none;
+  cursor: pointer;
+}
+.footer-links-content ul li{
+  margin-bottom: 20px;
+}
